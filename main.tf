@@ -10,9 +10,6 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region                   = "ap-south-1"
-  shared_credentials_files = ["/home/sayali/Documents/terraform/project-1/credentials"]
+  shared_credentials_files = ["/home/sayali/.credentials"]
   profile                  = "testing"
 }
-
-
-
